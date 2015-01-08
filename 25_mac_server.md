@@ -8,7 +8,7 @@ Mac 10.8开始，不再默认安装svn，需要自行安装
 
 **1. 安装homebrew**
 
-官网链接 [软件](http://brew.sh/index_zh-cn.html)
+官网链接 [homebrew](http://brew.sh/index_zh-cn.html)
 
 打开终端Terminal，粘贴下面的命令：
 
