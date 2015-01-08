@@ -18,4 +18,4 @@
 这就是经典的svn工作流程，从流程上看，有不少缺点，但也有优点。
 
 ![Image of work_flow]
-(https://github.com/sammulyuan/svn/blob/master/images/work_flow.png)
+(images/work_flow.png)
