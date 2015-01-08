@@ -10,7 +10,7 @@ Subversion将文件存放在中心版本库里。这个版本库很像一个普�
 
 本教程全面讲解了SVN在不同平台下的安装与使用，并不断更新和完善，让其成为最权威的《 SVN 教程 》供大家使用。
 
-![Image of ]
-()
+![Image of Subversion]
+(https://github.com/sammulyuan/svn/blob/master/images/Subversion.jpg)
 
 ps. 本篇权威教程还在不断完善，欢迎每一个人参与贡献。
