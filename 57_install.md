@@ -14,8 +14,8 @@
 ![Image of as3]
 (images/as3.png)
 
-- 如上图路径 Version Control 下的 Subersion 设置：
-Use Command Line Client 选择浏览到你本地安装 TortoiseSVN 的 svn.exe 文件路径，
+- 如上图路径 Version Control 下的 Subersion 设置：	
+Use Command Line Client 选择浏览到你本地安装 TortoiseSVN 的 svn.exe 文件路径。	
 如下图：（注意输入框最右侧有个浏览的按钮，有可能没显示出来，拉伸窗口即可见）
 
 ![Image of as4]

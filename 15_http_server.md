@@ -3,6 +3,7 @@
 基于Apache Http Server的Subversion，有以下好处： 
 
 - 能使用WebDAV协议  
+
 - 能使用浏览器作为客户端工具浏览源码仓库。 
 
 - 可以很容易的支持SSPI（Windows域认证）和LDAP，这些都是Apache本身就支持的。 

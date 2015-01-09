@@ -12,6 +12,7 @@ auth-access = write
 password-db = passwd        
 realm = My First Repository
 ```
+
 > 说明： 		
 	anon-access = none     不允许匿名访问！         
 	auth-access = write    允许提交修改                 
@@ -30,6 +31,7 @@ anon-access = read  → anon-access = none
 [users]         
 user=password         
 ```
+
 可以添加多个这样的用户名密码对。   
 
 **4.** 创建svn服务，并启动，这样svn就会开机自动启动  

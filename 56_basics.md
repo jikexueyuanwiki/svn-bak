@@ -23,7 +23,9 @@
 	* 蓝色向左且中间有个减号的箭头:SVN上删除了,而本地未删除的文件     
 	* 红色双向箭头:SVN上修改过,本地也修改过的文件  
           
-6. **一些遇到的出错信息**      
-出现"svnserve.conf:12: Option expected"错误： 		         
+6. **一些遇到的出错信息**  
+    
+出现`svnserve.conf:12: Option expected`错误： 		         
+
 你打开svnserve.conf文件中的第12行,该错误是由于该行的前面有空格引起的,把左边多出的空格删除掉即可;      
 在上面讲的3.2步输入URL(svn://127.0.0.1/SVN_PRJ)点下一步出现"svn://127.0.0.1/SVN_PRJ non-existent in revision '7'"错误，URL错了,应该输入svn://127.0.0.1即可

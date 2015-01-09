@@ -23,12 +23,16 @@ echo -e "\nEmpty log message not allowed. Commit aborted!" 1>&2
 exit 1
 fi
 ```
+
 > 配置完成后，给本件加上可执行权限。再提交代码时，就必须按要求写注释
 
 ## 可修改log脚本
 
 配置pre-revprop-change文件，此文件在show log中修改log时会运行，得到修改的权限，否则会报错:
-`DAV request failed; it's possible that the repository's pre-revprop-change hook either failed or is non-existent. At least one property change failed; repository is unchanged`
+
+```
+DAV request failed; it's possible that the repository's pre-revprop-change hook either failed or is non-existent. At least one property change failed; repository is unchanged
+```
 
 ```
 # cd /home/svn/project/hooks/
@@ -45,4 +49,5 @@ PROPNAME="$4"
 if ["$PROPNAME" = "svn:log"];then exit 0;fi
 exit 1
 ```
+
 > 配置完后加可执行权限升效。
